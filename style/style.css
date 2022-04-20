@@ -1,0 +1,151 @@
+:root{
+    --azul: #0d3aff;
+    --preta: #091444;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+    background: var(--preta);
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: white;
+    font-family: 'Arial Black';
+    margin-left: 5px;
+    margin: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: rgb(83, 255, 4);
+}
+
+/*final 21-22*/
+.final{
+    font-size: 14px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('banner2.png');
+    
+    height: 400px;
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    padding: 5px;
+}
+
+.final .descricao{
+    margin-top: 10%;
+    margin-bottom: 90px;
+
+}
+
+.fnl{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+        
+    padding: 10px 5px;
+    font-size: 10px;
+    transition: .5s ease all;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: rgb(24, 243, 90);
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+    text-align: center;
+    
+}
+.div{
+    margin-left: 30px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 0.70rem;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.final .container{
+    width: 55%;
+}
+
+.div{
+    width: 55%;
+    
+}
+
+.btn{
+    justify-content: center;
+    width: 55%;
+    margin-bottom: 150px;
+    
+  
+}
+
+.subtitulo{
+    padding-top: 30px;
+    margin-left: 10px;
+}
+
+.carrossel-jogos .carrossel-jogos-passados .carrossel-gols .carrossel-dribles .carrossel-galeria{
+    margin-left: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.item{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.list{
+    color: black;
+}
